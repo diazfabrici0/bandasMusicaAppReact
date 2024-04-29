@@ -1,0 +1,10 @@
+.primary { 
+    @apply bg-zinc-900  opacity-90 text-white p-4; 
+}
+
+.secondary{
+    @apply flex;
+}
+
+.icono{
+}

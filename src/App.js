@@ -1,5 +1,5 @@
 
-import Header from './components/Header/Header';
+import { Navbar } from './components/Navbar/Navbar';
 import Home from './pages/home/home';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
     <div>
       <div>
-        <Header />
+        <Navbar />
       </div>
       <Home />
     </div>

@@ -1,8 +1,6 @@
 import logo from '../../logo.svg';
 import styles from '../styles/layout.module.css';
 
-
-
 function Home() {
     return (
       <div className={styles.Home}>

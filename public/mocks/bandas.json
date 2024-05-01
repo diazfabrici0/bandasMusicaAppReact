@@ -1,0 +1,569 @@
+[
+  {
+    "id": "1",
+    "name": "Soda Stereo",
+    "image": "https://i.pinimg.com/236x/46/c4/a6/46c4a633072bed36ab993aa97660b11b.jpg",
+    "genre": "Rock",
+    "formation_year": 1982,
+    "members": [
+      {
+        "name": "Gustavo Cerati",
+        "photo": "https://i.pinimg.com/236x/5b/8e/86/5b8e86537d76fc91ccdecf59589952e0.jpg"
+      },
+      {
+        "name": "Zeta Bosio",
+        "photo": "https://i.pinimg.com/564x/56/47/6d/56476de411862faab318472a30ccca3a.jpg"
+      },
+      {
+        "name": "Charly Alberti",
+        "photo": "https://i.pinimg.com/564x/90/48/7f/90487f2f7798899ebc69e5988ec1a5f2.jpg"
+      }
+    ],
+    "country": "Argentina",
+    "discography": [
+      {
+        "album": "Soda Stereo",
+        "year": 1984,
+        "cover": "https://sodastereo.com/files/albums/soda-stereo.jpg"
+      },
+      {
+        "album": "Nada Personal",
+        "year": 1985,
+        "cover": "https://sodastereo.com/files/albums/nada-personal.jpg"
+      },
+      {
+        "album": "Signos",
+        "year": 1986,
+        "cover": "https://sodastereo.com/files/albums/signos.jpg"
+      },
+      {
+        "album": "Doble Vida",
+        "year": 1988,
+        "cover": "https://sodastereo.com/files/albums/doble-vida.jpg"
+      },
+      {
+        "album": "Canción Animal",
+        "year": 1990,
+        "cover": "https://sodastereo.com/files/albums/cancion-animal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Los Fabulosos Cadillacs",
+    "image": "https://i.pinimg.com/236x/dd/d1/84/ddd18485acdda927ef510d3510eeb31f.jpg",
+    "genre": "Ska",
+    "formation_year": 1985,
+    "members": [
+      {
+        "name": "Vicentico",
+        "photo": "https://i.pinimg.com/236x/ae/e5/60/aee5600ae619ed09c7301471df725c6e.jpg"
+      },
+      {
+        "name": "Flavio Cianciarulo",
+        "photo": "https://i.pinimg.com/564x/85/dc/f3/85dcf3f172280a50487075cfb922410b.jpg"
+      },
+      {
+        "name": "Sergio Rotman",
+        "photo": "https://i.pinimg.com/564x/93/03/60/930360b39fd1634b0ed21bc669521663.jpg"
+      },
+      {
+        "name": "Mario Siperman",
+        "photo": "https://i.pinimg.com/564x/76/80/33/7680334abbea16a67ca6496046e19870.jpg"
+      }
+    ],
+    "country": "Argentina",
+    "discography": [
+      {
+        "album": "Vasos Vacíos",
+        "year": 1993,
+        "cover": "https://fabulososcadillacs.com/is-content/discografia/covers/08.jpg"
+      },
+      {
+        "album": "El León",
+        "year": 1992,
+        "cover": "https://fabulososcadillacs.com/is-content/discografia/covers/07.jpg"
+      },
+      {
+        "album": "Rey Azúcar",
+        "year": 1995,
+        "cover": "https://fabulososcadillacs.com/is-content/discografia/covers/10.jpg"
+      },
+      {
+        "album": "Fabulosos Calavera",
+        "year": 1997,
+        "cover": "https://fabulososcadillacs.com/is-content/discografia/covers/11.jpg"
+      },
+      {
+        "album": "La Marcha del Golazo Solitario",
+        "year": 1999,
+        "cover": "https://fabulososcadillacs.com/is-content/discografia/covers/12.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Attaque 77",
+    "image": "https://i.pinimg.com/236x/f4/a5/1a/f4a51afa83757e09677719daebb9c109.jpg",
+    "genre": "Punk rock",
+    "formation_year": 1987,
+    "members": [
+      {
+        "name": "Ciro Pertusi",
+        "photo": "https://i.pinimg.com/564x/32/0e/63/320e63cd8227004c47bc7e13cad398ba.jpg"
+      },
+      {
+        "name": "Mariano Martínez",
+        "photo": "https://www.lavoz.com.ar/resizer/oDr1ImNkbhyuxaFa581x1ozxbrw=/0x3:850x558/980x640/filters:quality(80):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/RFS7KDAPFNFLNEL56ONYRF7GUI.jpg"
+      },
+      {
+        "name": "Luciano Scaglione",
+        "photo": "https://revistalanegra.com.ar/wp-content/uploads/2022/07/ddddddd-365x405.jpg"
+      },
+      {
+        "name": "Leonardo De Cecco",
+        "photo": "https://imgsvr.radiocut.site/get/thumb/900/900/cuts_logos/6d/6d/6d6dd720-17dc-483a-a3c8-99033cd965a1.jpg"
+      }
+    ],
+    "country": "Argentina",
+    "discography": [
+      {
+        "album": "Dulce Navidad",
+        "year": 1989,
+        "cover": "https://i.pinimg.com/564x/65/cd/14/65cd14f78510424cf696a500e0b87d4c.jpg"
+      },
+      {
+        "album": "El Cielo Puede Esperar",
+        "year": 1990,
+        "cover": "https://i.pinimg.com/564x/ed/83/f7/ed83f7f4936e00915c591d175e792c6f.jpg"
+      },
+      {
+        "album": "Angeles Caidos",
+        "year": 1991,
+        "cover": "https://i.pinimg.com/564x/7e/ca/9f/7eca9f380450317dfa3d8dcdb5767759.jpg"
+      },
+      {
+        "album": "Amén",
+        "year": 1995,
+        "cover": "https://i.pinimg.com/564x/24/6b/bb/246bbbc2a8bc08f413b2d0c86a211586.jpg"
+      },
+      {
+        "album": "Anti Humano",
+        "year": 2003,
+        "cover": "https://i.pinimg.com/564x/eb/25/86/eb2586468a408ecb30f1e924af80cc0d.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Divididos",
+    "image": "https://i.pinimg.com/236x/8d/3c/a7/8d3ca7ed9923afddedcd4b346c6a4cc3.jpg",
+    "genre": "Rock",
+    "formation_year": 1988,
+    "members": [
+      {
+        "name": "Ricardo Mollo",
+        "photo": "https://i.pinimg.com/564x/df/40/e6/df40e672df29b9d20a15e092d7907d6e.jpg"
+      },
+      {
+        "name": "Diego Arnedo",
+        "photo": "https://i.pinimg.com/564x/3d/eb/b3/3debb3038d5aa69d7e3ce3c61eef86a5.jpg"
+      },
+      {
+        "name": "Catriel Ciavarella",
+        "photo": "https://i.pinimg.com/564x/53/ab/26/53ab26d795328339ae5ad55511b6a288.jpg"
+      }
+    ],
+    "country": "Argentina",
+    "discography": [
+      {
+        "album": "40 Dibujos Ahí en el Piso",
+        "year": 1989,
+        "cover": "https://divididos.com.ar/admin/wp-content/uploads/2015/06/40_Dibujos_Ahi_En_El_Piso--300x300.jpg"
+      },
+      {
+        "album": "Acariciando lo Áspero",
+        "year": 1991,
+        "cover": "https://divididos.com.ar/admin/wp-content/uploads/2015/06/acariciando-lo-aspero-300x300.jpg"
+      },
+      {
+        "album": "La Era de la Boludez",
+        "year": 1993,
+        "cover": "https://divididos.com.ar/admin/wp-content/uploads/2015/06/LA-ERA-de-la-boludez.jpg"
+      },
+      {
+        "album": "Otroletravaladna",
+        "year": 1995,
+        "cover": "https://divididos.com.ar/admin/wp-content/uploads/2015/06/Otro_Le_Travaladna-300x300.jpg"
+      },
+      {
+        "album": "Narigón del Siglo",
+        "year": 1999,
+        "cover": "https://divididos.com.ar/admin/wp-content/uploads/2015/06/Narigon-Del-Siglo-300x300.jpg"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Babasónicos",
+    "image": "https://i.pinimg.com/236x/e6/30/e1/e630e180e7f1df328f73b511b07e4c27.jpg",
+    "genre": "Rock alternativo",
+    "formation_year": 1991,
+    "members": [
+      {
+        "name": "Adrián Rodríguez",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Diego Rodríguez",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Gabriel Manelli",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      }
+    ],
+    "country": "Argentina",
+    "discography": [
+      {
+        "album": "Pasto",
+        "year": 1992,
+        "cover": "https://babasonicos.com/assets/images/tapa-pasto.jpg"
+      },
+      {
+        "album": "Trance Zomba",
+        "year": 1994,
+        "cover": "https://babasonicos.com/assets/images/tapa-trance-zomba.jpg"
+      },
+      {
+        "album": "Dopádromo",
+        "year": 1996,
+        "cover": "https://babasonicos.com/assets/images/tapa-dopadromo.jpg"
+      },
+      {
+        "album": "Miami",
+        "year": 1999,
+        "cover": "https://babasonicos.com/assets/images/tapa-miami.jpg"
+      },
+      {
+        "album": "Jessico",
+        "year": 2001,
+        "cover": "https://babasonicos.com/assets/images/tapa-jessico.jpg"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "The Beatles",
+    "image": "https://i.pinimg.com/236x/d5/1e/43/d51e434abb7a4d9c65fe5dfc826ddcd7.jpg",
+    "genre": "Rock",
+    "formation_year": 1960,
+    "members": [
+      {
+        "name": "John Lennon",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Paul McCartney",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "George Harrison",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Ringo Starr",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      }
+    ],
+    "country": "Reino Unido",
+    "discography": [
+      {
+        "album": "Please Please Me",
+        "year": 1963,
+        "cover": "https://www.thebeatles.com/sites/default/files/styles/responsive_thumbnail_mobile/public/2021-06/Please%20Please%20Me.jpg?itok=tzOPWi8O"
+      },
+      {
+        "album": "With the Beatles",
+        "year": 1963,
+        "cover": "https://www.thebeatles.com/sites/default/files/styles/responsive_thumbnail_mobile/public/2021-06/With%20the%20Beatles.jpg?itok=3cGBeX7f"
+      },
+      {
+        "album": "A Hard Day's Night",
+        "year": 1964,
+        "cover": "https://www.thebeatles.com/sites/default/files/styles/responsive_thumbnail_mobile/public/2021-06/A%20Hard%20Days%20Night.jpg?itok=gDdWFeas"
+      },
+      {
+        "album": "Beatles for Sale",
+        "year": 1964,
+        "cover": "https://www.thebeatles.com/sites/default/files/styles/responsive_thumbnail_mobile/public/2021-06/The%20Beatles%20for%20Sale.jpg?itok=wCTmlGz3"
+      },
+      {
+        "album": "Help!",
+        "year": 1965,
+        "cover": "https://www.thebeatles.com/sites/default/files/styles/responsive_thumbnail_mobile/public/2021-06/Help.jpg?itok=Jz2wnyjj"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Queen",
+    "image": "https://i.pinimg.com/236x/fd/13/5b/fd135b409d1779f6eeabbec34087b20c.jpg",
+    "genre": "Rock",
+    "formation_year": 1970,
+    "members": [
+      {
+        "name": "Freddie Mercury",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Brian May",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Roger Taylor",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "John Deacon",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      }
+    ],
+    "country": "Reino Unido",
+    "discography": [
+      {
+        "album": "Queen",
+        "year": 1973,
+        "cover": "https://www.queenonline.com/global/assets/modules/site/images/music/QUEEN_1.jpg"
+      },
+      {
+        "album": "Queen II",
+        "year": 1974,
+        "cover": "https://www.queenonline.com/global/assets/modules/site/images/music/QUEEN_2.jpg"
+      },
+      {
+        "album": "Sheer Heart Attack",
+        "year": 1974,
+        "cover": "https://www.queenonline.com/global/assets/modules/site/images/music/SHA.jpg"
+      },
+      {
+        "album": "A Night at the Opera",
+        "year": 1975,
+        "cover": "https://www.queenonline.com/global/assets/modules/site/images/music/ANATO.jpg"
+      },
+      {
+        "album": "A Day at the Races",
+        "year": 1976,
+        "cover": "https://www.queenonline.com/global/assets/modules/site/images/music/DATR.jpg"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Led Zeppelin",
+    "image": "https://i.pinimg.com/236x/14/42/e9/1442e9b9655b4db750b8c576d3a3d470.jpg",
+    "genre": "Rock",
+    "formation_year": 1968,
+    "members": [
+      {
+        "name": "Jimmy Page",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Robert Plant",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "John Paul Jones",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "John Bonham",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      }
+    ],
+    "country": "Reino Unido",
+    "discography": [
+      {
+        "album": "Led Zeppelin",
+        "year": 1969,
+        "cover": "https://discography.ledzeppelin.com/images/lz1.jpg"
+      },
+      {
+        "album": "Led Zeppelin II",
+        "year": 1969,
+        "cover": "https://discography.ledzeppelin.com/images/lz2.jpg"
+      },
+      {
+        "album": "Led Zeppelin III",
+        "year": 1970,
+        "cover": "https://discography.ledzeppelin.com/images/lz3.jpg"
+      },
+      {
+        "album": "Led Zeppelin IV",
+        "year": 1971,
+        "cover": "https://discography.ledzeppelin.com/images/lz4.jpg"
+      },
+      {
+        "album": "Houses of the Holy",
+        "year": 1973,
+        "cover": "https://discography.ledzeppelin.com/images/hoth.jpg"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Nirvana",
+    "image": "https://i.pinimg.com/236x/60/87/4f/60874f5b5445aaa920692c7f33adf595.jpg",
+    "genre": "Grunge",
+    "formation_year": 1987,
+    "members": [
+      {
+        "name": "Kurt Cobain",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Krist Novoselic",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Dave Grohl",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      }
+    ],
+    "country": "Estados Unidos",
+    "discography": [
+      {
+        "album": "Bleach",
+        "year": 1989,
+        "cover": "https://www.nirvana.com/files/2023/10/bleach-compressed.jpg"
+      },
+      {
+        "album": "Nevermind",
+        "year": 1991,
+        "cover": "https://www.nirvana.com/files/2023/10/Nevermind-compressed.jpg"
+      },
+      {
+        "album": "In Utero",
+        "year": 1993,
+        "cover": "https://www.nirvana.com/files/2023/10/InUtero-compressed.jpg"
+      },
+      {
+        "album": "MTV Unplugged in New York",
+        "year": 1994,
+        "cover": "https://www.nirvana.com/files/2023/10/Unplugged-compressed.jpg"
+      },
+      {
+        "album": "From the Muddy Banks of the Wishkah",
+        "year": 1996,
+        "cover": "https://www.nirvana.com/files/2023/10/MuddyBanks-compressed.jpg"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Pink Floyd",
+    "image": "https://i.pinimg.com/236x/9c/bc/7b/9cbc7b218090fbc7748195512460094b.jpg",
+    "genre": "Rock progresivo",
+    "formation_year": 1965,
+    "members": [
+      {
+        "name": "Roger Waters",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "David Gilmour",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Nick Mason",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Richard Wright",
+        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      }
+    ],
+    "country": "Reino Unido",
+    "discography": [
+      {
+        "album": "Atom Heart Mother",
+        "year": 1970,
+        "cover": "https://i.pinimg.com/564x/dc/44/7b/dc447b338c5791b42e694ad95120a1e1.jpg"
+      },
+      {
+        "album": "The Dark Side of the Moon",
+        "year": 1973,
+        "cover": "https://i.pinimg.com/564x/7a/75/18/7a751883a207a3634b622e62c869bccc.jpg"
+      },
+      {
+        "album": "The Wall",
+        "year": 1979,
+        "cover": "https://i.pinimg.com/564x/fa/79/f8/fa79f87f22e27562f0bccc3c2715f04a.jpg"
+      },
+      {
+        "album": "The Division Bell",
+        "year": 1994,
+        "cover": "https://i.pinimg.com/564x/ca/3c/d7/ca3cd75ad8c5231f9b93c4b040fb170b.jpg"
+      },
+      {
+        "album": "Pulse",
+        "year": 1995,
+        "cover": "https://i.pinimg.com/564x/2d/d8/c1/2dd8c1821d4b7a2bc345fd8058814f0f.jpg"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Metallica",
+    "image": "https://i.pinimg.com/236x/3f/9e/ab/3f9eab77727ee2ad1821f9df02938423.jpg",
+    "genre": "Metal",
+    "formation_year": 1981,
+    "members": [
+      {
+        "name": "James Hetfield",
+        "photo": "https://i.pinimg.com/236x/7e/0e/d6/7e0ed6b939f425fc917242b1a0e99290.jpg"
+      },
+      {
+        "name": "Lars Ulrich",
+        "photo": "https://i.pinimg.com/564x/a0/d7/2f/a0d72fa71a3a63682b75f2364385bc8b.jpg"
+      },
+      {
+        "name": "Kirk Hammett",
+        "photo": "https://i.pinimg.com/736x/79/09/d3/7909d33df29fd87606a6c47c36ec2478.jpg"
+      },
+      {
+        "name": "Robert Trujillo",
+        "photo": "https://i.pinimg.com/564x/47/1b/ea/471beadccd0f39c78cffe1c42a3ade4e.jpg"
+      }
+    ],
+    "country": "Estados Unidos",
+    "discography": [
+      {
+        "album": "Kill 'Em All",
+        "year": 1983,
+        "cover": "https://cdn.media.amplience.net/i/metallica/kill-em-all_cover"
+      },
+      {
+        "album": "Ride the Lightning",
+        "year": 1984,
+        "cover": "https://cdn.media.amplience.net/i/metallica/ride-the-lightning_cover"
+      },
+      {
+        "album": "Master of Puppets",
+        "year": 1986,
+        "cover": "https://cdn.media.amplience.net/i/metallica/master-of-puppets_cover"
+      },
+      {
+        "album": "...And Justice for All",
+        "year": 1988,
+        "cover": "https://cdn.media.amplience.net/i/metallica/and-justice-for-all_cover"
+      },
+      {
+        "album": "Metallica (The Black Album)",
+        "year": 1991,
+        "cover": "https://cdn.media.amplience.net/i/metallica/the-black-album_cover"
+      }
+    ]
+  }
+]

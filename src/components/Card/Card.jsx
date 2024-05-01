@@ -7,7 +7,7 @@ export const Card = ({ band }) => {
   const navigate = useNavigate();
 
   const onClickDetailsHandler = () => {
-    navigate(`${ROUTES.details}/${id}`);
+    navigate(`${ROUTES.details.replace(":id", id)}`);
   };
 
   return (

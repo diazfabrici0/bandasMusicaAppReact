@@ -6,9 +6,7 @@ import { FaHome } from "react-icons/fa";
 const ButtonHome = () => {
     return (
       <Link to="/">
-        <button>
           <FaHome size={30} />
-        </button>
       </Link>
     );
   }

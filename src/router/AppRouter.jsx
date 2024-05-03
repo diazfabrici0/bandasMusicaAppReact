@@ -1,22 +1,48 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Details, Error, Galery, Home } from "../pages";
+import { BandsRoutes } from "../routes/BandsRoutes";
 import { ROUTES } from "../const/routes";
+import { Details, Error, Galery, Home } from "../pages";
+
+// const router = createBrowserRouter([
+//   {
+//     path: ROUTES.home,
+//     element: <Home />,
+//   },
+//   {
+//     path: ROUTES.galery,
+//     element: <Galery />,
+//   },
+//   {
+//     path: ROUTES.details,
+//     element: <Details />,
+//   },
+//   {
+//     path: "*",
+//     element: <Error />,
+//   },
+// ]);
 
 const router = createBrowserRouter([
   {
-    path: ROUTES.home,
-    element: <Home />,
-    errorElement: <Error />,
-  },
-  {
-    path: ROUTES.galery,
-    element: <Galery />,
-    errorElement: <Error />,
-  },
-  {
-    path: ROUTES.details,
-    element: <Details />,
-    errorElement: <Error />,
+    element: <BandsRoutes />,
+    children: [
+      {
+        path: ROUTES.home,
+        element: <Home />,
+      },
+      {
+        path: ROUTES.galery,
+        element: <Galery />,
+      },
+      {
+        path: ROUTES.details,
+        element: <Details />,
+      },
+      {
+        path: "*",
+        element: <Error />,
+      },
+    ],
   },
 ]);
 

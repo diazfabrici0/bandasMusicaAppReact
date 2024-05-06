@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { ImSearch } from "react-icons/im";
-import { Card, CardInfo, Title } from "../../components";
+import { Card, CardInfo, SearchInput, Title } from "../../components";
+
+import style from "./Galery.module.css";
 
 export const Galery = () => {
   const [bands, setBands] = useState([]);
@@ -17,7 +18,7 @@ export const Galery = () => {
   }, []);
 
   const onChangeSearch = (event) => {
-    setSearchBand(event.target.value.toLowerCase());
+    setSearchBand(event.target.value.toLowerCase().trim());
   };
 
   const filteredBand = bands.filter((band) =>
@@ -26,24 +27,14 @@ export const Galery = () => {
 
   if (bands.length === 0) return <div>Loading...</div>;
   return (
-    <div className="container mt-10">
+    <div className={style.galery_container}>
       <div className="text-center">
         <Title text="Galeria" />
       </div>
       <div className="flex justify-end">
-        <form action="" className="w-[300px]">
-          <div className="flex items-center border-b border-teal-500 py-2">
-            <input
-              className="bg-transparent w-full text-white py-1 px-2 leading-tight focus:outline-none"
-              type="text"
-              placeholder="Buscar Banda"
-              onChange={onChangeSearch}
-            />
-            <ImSearch />
-          </div>
-        </form>
+        <SearchInput placeholder="Buscar Banda" onChange={onChangeSearch} />
       </div>
-      <div className="grid grid-cols-2 gap-2">
+      <div className={style.galery_container_card}>
         {searchBand === "" ? (
           bands.map((band) => <Card band={band} key={band.id} />)
         ) : filteredBand.length === 0 ? (

@@ -1,0 +1,3 @@
+.title_container {
+  @apply mb-8 font-Tilt text-5xl tracking-widest hover:tracking-[20px];
+}

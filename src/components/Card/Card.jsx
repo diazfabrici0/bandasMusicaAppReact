@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes";
 import { Button } from "../Button/Button";
+import style from "./Card.module.css";
 
 export const Card = ({ band }) => {
   const { id, image, name, genre, country } = band;
@@ -11,17 +12,19 @@ export const Card = ({ band }) => {
   };
 
   return (
-    <div className="bg-card flex flex-row gap-10 m-10 rounded-lg px-6 py-8 shadow-lg shadow-white border-2 border-white">
-      <div className="flex items-center">
-        <img src={image} alt={name} />
-      </div>
+    <div className={`${style.card_container} md:max-w-2xl`}>
+      <div className="md:flex">
+        <div className={style.card_container_image}>
+          <img className="md:h-full md:w-48" src={image} alt={name} />
+        </div>
 
-      <div className="">
-        <p className="font-Montserrat text-2xl font-bold">{name}</p>
-        <p className="font-Nunito text-lg">{genre}</p>
-        <p className="font-Nunito text-lg">{country}</p>
-        <div className="mt-10">
-          <Button text="Mas Info" onClick={onClickDetailsHandler} />
+        <div className="ml-5">
+          <p className={style.card_title}>{name}</p>
+          <p className={style.card_text}>{genre}</p>
+          <p className={style.card_text}>{country}</p>
+          <div className="mt-10">
+            <Button text="Mas Info" onClick={onClickDetailsHandler} />
+          </div>
         </div>
       </div>
     </div>

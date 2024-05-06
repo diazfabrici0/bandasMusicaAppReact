@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes";
 import { Button, Slider, Subtitle, Title } from "../../components";
 
+import style from "./Home.module.css";
+
 export const Home = () => {
   const [bands, setBands] = useState([]);
 
@@ -25,7 +27,7 @@ export const Home = () => {
   if (bands.length === 0) return <div>Loading...</div>;
 
   return (
-    <div className="container flex flex-col items-center mt-1">
+    <div className={style.home_container}>
       <Title text="Nombre Banda" />
       <Subtitle
         text="Explora el emocionante mundo de la música con nosotros. En nuestro

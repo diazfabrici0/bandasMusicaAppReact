@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
+import style from "./Slider.module.css";
+
 export const Slider = ({ bands }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -15,8 +17,8 @@ export const Slider = ({ bands }) => {
   };
 
   return (
-    <div className="flex items-center justify-center gap-8 mb-10">
-      <div className="text-2xl cursor-pointer">
+    <div className={style.slider_container}>
+      <div className={style.slider_button}>
         <FaArrowAltCircleLeft onClick={prevSlide} />
       </div>
       <div
@@ -25,10 +27,10 @@ export const Slider = ({ bands }) => {
       >
         <img src={bands[currentIndex].image} alt={bands[currentIndex].name} />
         {isHovered && (
-          <p className="text-center mt-1">{bands[currentIndex].name}</p>
+          <p className={style.slider_text}>{bands[currentIndex].name}</p>
         )}
       </div>
-      <div className="text-2xl cursor-pointer">
+      <div className={style.slider_button}>
         <FaArrowAltCircleRight onClick={nextSlide} />
       </div>
     </div>

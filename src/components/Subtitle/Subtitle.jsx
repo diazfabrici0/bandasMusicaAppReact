@@ -1,5 +1,5 @@
-import React from "react";
+import style from "./Subtitle.module.css";
 
 export const Subtitle = ({ text }) => {
-  return <div className="mb-8 font-Montserrat text-xl">{text}</div>;
+  return <div className={style.subtitle_container}>{text}</div>;
 };

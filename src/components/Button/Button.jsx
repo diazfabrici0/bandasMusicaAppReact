@@ -1,11 +1,8 @@
-import React from "react";
+import style from "./Button.module.css";
 
 export const Button = ({ text, onClick }) => {
   return (
-    <button
-      className="bg-white text-black px-10 py-4 text-xl uppercase tracking-widest hover:bg-black hover:text-white rounded-3xl"
-      onClick={onClick}
-    >
+    <button className={style.button} onClick={onClick}>
       {text}
     </button>
   );

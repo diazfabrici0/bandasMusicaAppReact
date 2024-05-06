@@ -1,7 +1,5 @@
+import style from "./Title.module.css";
+
 export const Title = ({ text }) => {
-  return (
-    <div className="mb-8 font-Tilt text-5xl tracking-widest hover:tracking-[20px]">
-      {text}
-    </div>
-  );
+  return <div className={style.title_container}>{text}</div>;
 };

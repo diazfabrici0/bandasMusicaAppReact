@@ -7,11 +7,11 @@
 }
 
 .footer_container_group_name {
-  @apply flex justify-center items-center;
+  @apply flex flex-col justify-center items-center;
 }
 
 .footer_text_group_name {
-  @apply text-5xl font-Nunito;
+  @apply text-5xl mb-5 font-Nunito;
 }
 
 .footer_title {

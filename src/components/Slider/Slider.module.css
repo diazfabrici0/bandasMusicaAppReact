@@ -1,0 +1,11 @@
+.slider_container {
+  @apply flex items-center justify-center gap-8 mb-10;
+}
+
+.slider_button {
+  @apply text-2xl cursor-pointer;
+}
+
+.slider_text {
+  @apply text-center mt-1;
+}

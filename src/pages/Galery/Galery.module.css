@@ -1,0 +1,7 @@
+.galery_container {
+  @apply container mt-10;
+}
+
+.galery_container_card {
+  @apply grid grid-cols-2 gap-2;
+}

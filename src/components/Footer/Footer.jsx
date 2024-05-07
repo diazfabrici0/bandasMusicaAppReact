@@ -6,6 +6,7 @@ import {
   FaRegCopyright,
 } from "react-icons/fa6";
 import style from "./Footer.module.css";
+import { SocialLink } from "../SocialLink/SocialLink";
 
 export const Footer = () => {
   return (
@@ -13,20 +14,29 @@ export const Footer = () => {
       <div className={style.footer_container_grid}>
         <div className={style.footer_container_group_name}>
           <p className={style.footer_text_group_name}>Grupo 6</p>
+          <SocialLink href="https://github.com/diazfabrici0/bandasMusicaAppReact">
+            <FaGithub className="text-4xl" />
+          </SocialLink>
         </div>
         <div>
           <p className={style.footer_title}>¿Quienes Somos?</p>
           <div>
             <div className={style.footer_text}>
-              <FaGithub />
+              <SocialLink href="https://github.com/diazfabrici0">
+                <FaGithub />
+              </SocialLink>
               <p>Fabricio Diaz</p>
             </div>
             <div className={`${style.footer_text} my-2`}>
-              <FaGithub />
+              <SocialLink href="https://github.com/josetomy07">
+                <FaGithub />
+              </SocialLink>
               <p>Jose Centena</p>
             </div>
             <div className={style.footer_text}>
-              <FaGithub />
+              <SocialLink href="https://github.com/NachoCayuqueo">
+                <FaGithub />
+              </SocialLink>
               <p>Nacho Cayuqueo</p>
             </div>
           </div>
@@ -34,33 +44,21 @@ export const Footer = () => {
         <div>
           <p className={style.footer_title}>Nuestras Redes sociales</p>
           <div className={style.footer_container_button}>
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <SocialLink href="https://www.facebook.com">
               <FaFacebookF
                 className={`${style.footer_button} hover:fill-blue-700`}
               />
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </SocialLink>
+            <SocialLink href="https://twitter.com/">
               <FaXTwitter
                 className={`${style.footer_button} hover:fill-cyan-700`}
               />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </SocialLink>
+            <SocialLink href="https://www.instagram.com">
               <FaInstagram
                 className={`${style.footer_button} hover:fill-red-700`}
               />
-            </a>
+            </SocialLink>
           </div>
         </div>
       </div>

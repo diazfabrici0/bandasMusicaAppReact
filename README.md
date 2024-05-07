@@ -1,6 +1,6 @@
 ![Logo_FAI](public/images/logo_fai.png)
 
-# Bandas Nacionales e Inteernacionales
+# Bandas Nacionales e Internacionales
 
 Nuestra aplicación web, es un espacio dedicado a los amantes de la música donde podrás explorar y descubrir bandas musicales tanto nacionales como internacionales. Sumérgete en un emocionante viaje a través del fascinante mundo de la música mientras exploras una amplia colección de bandas que han dejado una marca indeleble en la historia de la música. Desde la discografía hasta los integrantes y años de formación, nuestra plataforma proporciona información detallada sobre tus bandas favoritas, ofreciéndote una experiencia completa y enriquecedora.
 

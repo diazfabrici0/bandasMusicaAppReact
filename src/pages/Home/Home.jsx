@@ -1,34 +1,29 @@
-import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useBands } from "../../hook/useBands";
 import { ROUTES } from "../../const/routes";
-import { Button, Slider, Subtitle, Title } from "../../components";
+import { Button, Loading, Slider, Subtitle, Title } from "../../components";
 
 import style from "./Home.module.css";
 
 export const Home = () => {
-  const [bands, setBands] = useState([]);
+  const { bands, isLoading } = useBands();
 
   const navigate = useNavigate();
-
-  const fecthBands = async () => {
-    const response = await fetch("/mocks/bandas.json");
-    const data = await response.json();
-    setBands(data);
-  };
-
-  useEffect(() => {
-    fecthBands();
-  }, []);
 
   const onClickGaleryHandler = () => {
     navigate(ROUTES.galery);
   };
 
-  if (bands.length === 0) return <div>Loading...</div>;
+  if (isLoading)
+    return (
+      <div className="flex justify-center">
+        <Loading text="Cargando..." />
+      </div>
+    );
 
   return (
     <div className={style.home_container}>
-      <Title text="Nombre Banda" />
+      <Title text="Bienvenido" />
       <Subtitle
         text="Explora el emocionante mundo de la música con nosotros. En nuestro
           sitio, encontrarás una colección diversa de bandas musicales, tanto

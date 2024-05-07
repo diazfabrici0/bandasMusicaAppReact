@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { Title } from "../../components";
+import { useNavigate, useParams } from "react-router-dom";
+import { FaCircleArrowLeft } from "react-icons/fa6";
+
+import { useBands } from "../../hook/useBands";
+
+import { Loading, Title, Tooltip } from "../../components";
 import { CardMember } from "./components/CardMember/CardMember";
 import { CardDiscography } from "./components/CardDiscography/CardDiscography";
 
@@ -8,27 +12,37 @@ import style from "./Details.module.css";
 
 export const Details = () => {
   const [band, setBand] = useState([]);
+  const { bands, isLoading } = useBands();
   const { id } = useParams();
-
-  const fecthBandById = async (id) => {
-    const response = await fetch(`/mocks/bandas.json`);
-    const data = await response.json();
-
-    const band = data.find((band) => band.id === id);
-    setBand(band);
-  };
+  const navigate = useNavigate();
 
   useEffect(() => {
-    fecthBandById(id);
-  }, [id]);
+    const foundBand = bands.find((band) => band.id === id) || [];
+    setBand(foundBand);
+  }, [band, bands, id]);
 
-  if (band.length === 0) return <div>Loading...</div>;
+  const onClickGoBbackHandler = () => {
+    navigate(-1);
+  };
+
+  if (isLoading || band.length === 0)
+    return (
+      <div className="flex justify-center">
+        <Loading text="Cargando..." />
+      </div>
+    );
 
   return (
     <div className={style.details_container}>
       <div className="text-center">
         <Title text={band.name} />
       </div>
+      <Tooltip message="volver a galeria">
+        <FaCircleArrowLeft
+          className="text-5xl ml-5 cursor-pointer  hover:text-red-700"
+          onClick={onClickGoBbackHandler}
+        />
+      </Tooltip>
       <div className="flex justify-center">
         <img src={band.image} alt={band.name} />
       </div>
@@ -60,7 +74,7 @@ export const Details = () => {
         <p className={style.details_title}>DISCOGRAFIA</p>
         <div className="grid grid-cols-3 gap-5">
           {band.discography.map((disco, index) => (
-            <CardDiscography discography={disco} />
+            <CardDiscography discography={disco} key={index} />
           ))}
         </div>
       </div>

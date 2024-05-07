@@ -1,31 +1,26 @@
-import { useEffect, useState } from "react";
-import { Card, CardInfo, SearchInput, Title } from "../../components";
+import { useState } from "react";
+import { filterBandsByName } from "../../helper";
+import { Card, CardInfo, Loading, SearchInput, Title } from "../../components";
 
 import style from "./Galery.module.css";
+import { useBands } from "../../hook/useBands";
 
 export const Galery = () => {
-  const [bands, setBands] = useState([]);
+  const { bands, isLoading } = useBands();
   const [searchBand, setSearchBand] = useState("");
 
-  const fecthBands = async () => {
-    const response = await fetch("/mocks/bandas.json");
-    const data = await response.json();
-    setBands(data);
-  };
-
-  useEffect(() => {
-    fecthBands();
-  }, []);
-
   const onChangeSearch = (event) => {
-    setSearchBand(event.target.value.toLowerCase().trim());
+    setSearchBand(event.target.value);
   };
 
-  const filteredBand = bands.filter((band) =>
-    band.name.toLowerCase().includes(searchBand)
-  );
+  const filteredBand = filterBandsByName(bands, searchBand);
 
-  if (bands.length === 0) return <div>Loading...</div>;
+  if (isLoading)
+    return (
+      <div className="flex justify-center">
+        <Loading text="Cargando..." />
+      </div>
+    );
   return (
     <div className={style.galery_container}>
       <div className="text-center">

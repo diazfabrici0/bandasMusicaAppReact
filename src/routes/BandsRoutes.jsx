@@ -5,7 +5,7 @@ export const BandsRoutes = () => {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="flex flex-col min-h-[100vh]">
         <Outlet />
       </div>
       <Footer />

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes";
 
 import style from "./Navbar.module.css";
+import { Tooltip } from "../Tooltip/Tooltip";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -12,7 +13,9 @@ export const Navbar = () => {
   return (
     <nav className={style.navbar_container}>
       <div className={style.navbar_button_container}>
-        <FaHome className="cursor-pointer" onClick={onClickHomeHandler} />
+        <Tooltip message="Home">
+          <FaHome className="cursor-pointer" onClick={onClickHomeHandler} />
+        </Tooltip>
       </div>
     </nav>
   );

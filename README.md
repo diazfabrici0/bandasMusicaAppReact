@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+![Logo_FAI](public/images/logo_fai.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bandas Nacionales e Inteernacionales
 
-## Available Scripts
+Nuestra aplicación web, es un espacio dedicado a los amantes de la música donde podrás explorar y descubrir bandas musicales tanto nacionales como internacionales. Sumérgete en un emocionante viaje a través del fascinante mundo de la música mientras exploras una amplia colección de bandas que han dejado una marca indeleble en la historia de la música. Desde la discografía hasta los integrantes y años de formación, nuestra plataforma proporciona información detallada sobre tus bandas favoritas, ofreciéndote una experiencia completa y enriquecedora.
 
-In the project directory, you can run:
+## Instalación
 
-### `npm start`
+Sigue estos pasos para instalar y ejecutar la aplicación en tu máquina local
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de comenzar asegúrate de tener:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [**NodeJS**](https://nodejs.org/)
+- [**nvm**](https://github.com/nvm-sh/nvm)
+- [**npm**](https://www.npmjs.com/)
 
-### `npm test`
+Clona el repositorio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone git@github.com:diazfabrici0/bandasMusicaAppReact.git
+```
 
-### `npm run build`
+Ingresa al directorio del proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd musical-bands-app
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Instala las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+Inicia la aplicación:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Pagina Inicial:
+  ![Home](public/images/screenshots_home.png)
+- Pagina Galeria:
+  ![Galery](public/images/screenshots_galery.png)
+- Pagina Detalles:
+  ![Details](public/images/screenshots_details.png)
+- Footer:
+  ![Footer](public/images/screenshots_footer.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tecnologias
 
-## Learn More
+Para el desarrollo del proyecto se utilizó:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ![React JS](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+- ![React Router DOM](https://img.shields.io/badge/React_Router_DOM-CA4245?style=for-the-badge&logo=react-router-dom&logoColor=white)
+- ![Node JS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autores
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@diazfabrici0](https://github.com/diazfabrici0)
+- [@josetomy07](https://github.com/josetomy07)
+- [@NachoCayuqueo](https://github.com/NachoCayuqueo)

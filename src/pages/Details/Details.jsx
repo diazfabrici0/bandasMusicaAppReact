@@ -19,7 +19,7 @@ export const Details = () => {
   useEffect(() => {
     const foundBand = bands.find((band) => band.id === id) || [];
     setBand(foundBand);
-  }, [band, bands, id]);
+  }, [bands, id]);
 
   const onClickGoBbackHandler = () => {
     navigate(-1);
@@ -34,30 +34,36 @@ export const Details = () => {
 
   return (
     <div className={style.details_container}>
+      <div className="absolute">
+        <Tooltip message="volver a galeria">
+          <FaCircleArrowLeft
+            className="text-5xl ml-5 cursor-pointer  hover:text-red-700"
+            onClick={onClickGoBbackHandler}
+          />
+        </Tooltip>
+      </div>
       <div className="text-center">
         <Title text={band.name} />
       </div>
-      <Tooltip message="volver a galeria">
-        <FaCircleArrowLeft
-          className="text-5xl ml-5 cursor-pointer  hover:text-red-700"
-          onClick={onClickGoBbackHandler}
-        />
-      </Tooltip>
-      <div className="flex justify-center">
-        <img src={band.image} alt={band.name} />
-      </div>
       {/* espacio para primeros datos */}
-      <div className={style.details_container_info}>
-        <p>
-          <span className={style.details_text}>Genero:</span> {band.genre}
-        </p>
-        <p>
-          <span className={style.details_text}>Año de Formación:</span>{" "}
-          {band.formation_year}
-        </p>
-        <p>
-          <span className={style.details_text}>Pais:</span> {band.country}
-        </p>
+      <div className="flex flex-col justify-center p-10">
+        <div className="flex flex-row gap-10">
+          <div className="w-60">
+            <img src={band.image} alt={band.name} className="w-full h-auto" />
+          </div>
+          <div className="flex flex-col items-center justify-center flex-1">
+            <div className="border-t-2 border-b-2 py-8">
+              <p>{band.bibliography}</p>
+            </div>
+            <div className="flex space-x-10 justify-center mt-5">
+              <p>Genero: {band.genre}</p>
+              <div className="border-l-2 h-6"></div>
+              <p>País: {band.country}</p>
+              <div className="border-l-2 h-6"></div>
+              <p>Año de Formación: {band.formation_year}</p>
+            </div>
+          </div>
+        </div>
       </div>
       {/* espacio para miembros */}
       <div className={style.details_container_members}>
@@ -68,8 +74,7 @@ export const Details = () => {
           ))}
         </div>
       </div>
-
-      {/* espacio para discografia #5c1a1c - #090504*/}
+      {/* espacio para discografia*/}
       <div className={style.details_container_discography}>
         <p className={style.details_title}>DISCOGRAFIA</p>
         <div className="grid grid-cols-3 gap-5">

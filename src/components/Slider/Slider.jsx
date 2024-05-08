@@ -22,7 +22,11 @@ export const Slider = ({ bands }) => {
         <FaArrowAltCircleLeft onClick={prevSlide} />
       </div>
       <Tooltip message={bands[currentIndex].name}>
-        <img src={bands[currentIndex].image} alt={bands[currentIndex].name} />
+        <img
+          src={bands[currentIndex].image}
+          alt={bands[currentIndex].name}
+          className={style.slider_image}
+        />
       </Tooltip>
 
       <div className={style.slider_button}>

@@ -1,5 +1,5 @@
 .card_container {
-  @apply bg-card flex flex-row gap-10 m-10 rounded-lg px-6 py-8 shadow-lg shadow-white border-2 border-white;
+  @apply bg-card flex flex-row gap-10 m-10 rounded-lg px-6 py-8 shadow-lg shadow-white border-2 border-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:shadow-teal-500 duration-300;
 }
 
 .card_title {

@@ -212,15 +212,23 @@
     "members": [
       {
         "name": "Adrián Rodríguez",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Adri%C3%A1n_D%C3%A1rgelos.jpg/220px-Adri%C3%A1n_D%C3%A1rgelos.jpg"
       },
       {
         "name": "Diego Rodríguez",
         "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
       },
       {
-        "name": "Gabriel Manelli",
+        "name": "Diego Tuñón",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpgQkcufTBRvDFKMCiHSlGuA5LfpdYX_qvnxUGgiAN2Q&s"
+      },
+      {
+        "name": "Diego Castellano",
         "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+      },
+      {
+        "name": "Mariano Domínguez",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Babasonicosroger.jpg/220px-Babasonicosroger.jpg"
       }
     ],
     "country": "Argentina",
@@ -261,19 +269,19 @@
     "members": [
       {
         "name": "John Lennon",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/236x/c1/61/50/c16150c3ef51107f16da504d552da3f0.jpg"
       },
       {
         "name": "Paul McCartney",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/236x/cb/6e/65/cb6e65bc619340d4e356114d1b54e073.jpg"
       },
       {
         "name": "George Harrison",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/94/50/af/9450af810ad4284b3b87f1320bf23c82.jpg"
       },
       {
         "name": "Ringo Starr",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ringo_Starr.png/220px-Ringo_Starr.png"
       }
     ],
     "country": "Reino Unido",
@@ -314,19 +322,19 @@
     "members": [
       {
         "name": "Freddie Mercury",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/74/92/b5/7492b58c427cb7a6b476ea87f350ff9c.jpg"
       },
       {
         "name": "Brian May",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/df/db/4c/dfdb4c5770c9b99b92750ea47d5140a5.jpg"
       },
       {
         "name": "Roger Taylor",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Queen_And_Adam_Lambert_-_The_O2_-_Tuesday_12th_December_2017_QueenO2121217-47_%2839066610085%29_Cropped.jpg/250px-Queen_And_Adam_Lambert_-_The_O2_-_Tuesday_12th_December_2017_QueenO2121217-47_%2839066610085%29_Cropped.jpg"
       },
       {
         "name": "John Deacon",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bass_player_queen.jpg/250px-Bass_player_queen.jpg"
       }
     ],
     "country": "Reino Unido",
@@ -367,19 +375,19 @@
     "members": [
       {
         "name": "Jimmy Page",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/7b/fb/82/7bfb82177b06275bf44091dcbdf1ce02.jpg"
       },
       {
         "name": "Robert Plant",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/f0/b6/d8/f0b6d820c95e8191a2c743709a2211ed.jpg"
       },
       {
         "name": "John Paul Jones",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/John_Paul_Jones_-_2010.jpg/250px-John_Paul_Jones_-_2010.jpg"
       },
       {
         "name": "John Bonham",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/db/29/d0/db29d0e4c73ab631092cdcfef4f334fa.jpg"
       }
     ],
     "country": "Reino Unido",
@@ -420,15 +428,15 @@
     "members": [
       {
         "name": "Kurt Cobain",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/ae/ff/e1/aeffe1695dd07e93ab6098757fca5430.jpg"
       },
       {
         "name": "Krist Novoselic",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/6a/89/5c/6a895cbd957b06c52645f16e238e986e.jpg"
       },
       {
         "name": "Dave Grohl",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/dc/bc/b4/dcbcb48c6625fe11ad8e0dca12b0232b.jpg"
       }
     ],
     "country": "Estados Unidos",
@@ -469,19 +477,23 @@
     "members": [
       {
         "name": "Roger Waters",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://i.pinimg.com/564x/bc/52/66/bc5266bb3223a7210f22dbf7e27feef3.jpg"
+      },
+      {
+        "name": "Syd Barrett",
+        "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Syd_Barrett%2C_1969.jpg/220px-Syd_Barrett%2C_1969.jpg"
       },
       {
         "name": "David Gilmour",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/David_Gilmour_Argentina_2015_%28cropped%29.jpg/220px-David_Gilmour_Argentina_2015_%28cropped%29.jpg"
       },
       {
         "name": "Nick Mason",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Nick_Mason_2018_%28cropped2%29.jpg/220px-Nick_Mason_2018_%28cropped2%29.jpg"
       },
       {
         "name": "Richard Wright",
-        "photo": "https://i.pinimg.com/564x/0e/6e/14/0e6e141521bd89a3f6b4ad6801517f3b.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rickwright.jpg/220px-Rickwright.jpg"
       }
     ],
     "country": "Reino Unido",
